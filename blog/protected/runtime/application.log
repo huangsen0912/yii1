@@ -1,0 +1,2324 @@
+2015/09/09 11:48:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /home/spoplar/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2015/09/10 13:30:25 [error] [php] Undefined variable: articleNew (/home/spoplar/www/yii/blog/protected/views/index/index.php:9)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): IndexController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): IndexController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/controllers/IndexController.php(12): IndexController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): IndexController->actionIndex()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): IndexController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): IndexController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): IndexController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /home/spoplar/www/yii/blog/protected/views/index/index.php (9)
+in /home/spoplar/www/yii/blog/protected/controllers/IndexController.php (12)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/10 13:31:21 [error] [php] Undefined variable: articleNew (/home/spoplar/www/yii/blog/protected/views/index/index.php:9)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): IndexController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): IndexController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/controllers/IndexController.php(12): IndexController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): IndexController->actionIndex()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): IndexController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): IndexController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): IndexController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /home/spoplar/www/yii/blog/protected/views/index/index.php (9)
+in /home/spoplar/www/yii/blog/protected/controllers/IndexController.php (12)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/10 13:32:28 [error] [php] Undefined variable: articleHot (/home/spoplar/www/yii/blog/protected/views/index/index.php:29)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): IndexController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): IndexController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/controllers/IndexController.php(16): IndexController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): IndexController->actionIndex()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): IndexController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): IndexController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): IndexController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /home/spoplar/www/yii/blog/protected/views/index/index.php (29)
+in /home/spoplar/www/yii/blog/protected/controllers/IndexController.php (16)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/10 13:37:06 [error] [php] include(Article.php): failed to open stream: No such file or directory (/home/spoplar/www/yii/framework/YiiBase.php:432)
+Stack trace:
+#0 /home/spoplar/www/yii/blog/protected/views/layouts/blog.php(19): spl_autoload_call()
+#1 /home/spoplar/www/yii/framework/web/CBaseController.php(126): require()
+#2 /home/spoplar/www/yii/framework/web/CBaseController.php(95): IndexController->renderInternal()
+#3 /home/spoplar/www/yii/framework/web/CController.php(784): IndexController->renderFile()
+#4 /home/spoplar/www/yii/blog/protected/controllers/IndexController.php(19): IndexController->render()
+#5 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): IndexController->actionIndex()
+#6 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /home/spoplar/www/yii/framework/web/CController.php(286): IndexController->runAction()
+#8 /home/spoplar/www/yii/framework/web/CController.php(265): IndexController->runActionWithFilters()
+#9 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): IndexController->run()
+#10 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /home/spoplar/www/yii/blog/protected/views/layouts/blog.php (19)
+in /home/spoplar/www/yii/blog/protected/controllers/IndexController.php (19)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/10 13:57:09 [error] [php] Undefined variable: common (/home/spoplar/www/yii/blog/protected/views/layouts/blog.php:22)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(784): IndexController->renderFile()
+#1 /home/spoplar/www/yii/blog/protected/controllers/IndexController.php(19): IndexController->render()
+#2 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): IndexController->actionIndex()
+#3 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /home/spoplar/www/yii/framework/web/CController.php(286): IndexController->runAction()
+#5 /home/spoplar/www/yii/framework/web/CController.php(265): IndexController->runActionWithFilters()
+#6 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): IndexController->run()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /home/spoplar/www/yii/blog/protected/views/layouts/blog.php (22)
+in /home/spoplar/www/yii/blog/protected/controllers/IndexController.php (19)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/10 13:57:39 [error] [php] Undefined variable: common (/home/spoplar/www/yii/blog/protected/views/layouts/blog.php:22)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(784): IndexController->renderFile()
+#1 /home/spoplar/www/yii/blog/protected/controllers/IndexController.php(20): IndexController->render()
+#2 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): IndexController->actionIndex()
+#3 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /home/spoplar/www/yii/framework/web/CController.php(286): IndexController->runAction()
+#5 /home/spoplar/www/yii/framework/web/CController.php(265): IndexController->runActionWithFilters()
+#6 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): IndexController->run()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /home/spoplar/www/yii/blog/protected/views/layouts/blog.php (22)
+in /home/spoplar/www/yii/blog/protected/controllers/IndexController.php (20)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/10 13:58:15 [error] [php] Undefined variable: common (/home/spoplar/www/yii/blog/protected/views/layouts/blog.php:35)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(784): IndexController->renderFile()
+#1 /home/spoplar/www/yii/blog/protected/controllers/IndexController.php(20): IndexController->render()
+#2 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): IndexController->actionIndex()
+#3 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /home/spoplar/www/yii/framework/web/CController.php(286): IndexController->runAction()
+#5 /home/spoplar/www/yii/framework/web/CController.php(265): IndexController->runActionWithFilters()
+#6 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): IndexController->run()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /home/spoplar/www/yii/blog/protected/views/layouts/blog.php (35)
+in /home/spoplar/www/yii/blog/protected/controllers/IndexController.php (20)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/10 14:22:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in /home/spoplar/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('home')
+#1 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=home
+---
+2015/09/10 14:23:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "front".' in /home/spoplar/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('front')
+#1 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=front
+---
+2015/09/10 14:26:45 [error] [php] Undefined variable: loginForm (/home/spoplar/www/yii/blog/protected/modules/boss/views/login/index.php:13)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): LoginController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): LoginController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php(13): LoginController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): LoginController->actionIndex()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): LoginController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): LoginController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/login
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/login/index.php (13)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (13)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/10 14:29:29 [error] [php] Undefined variable: loginForm (/home/spoplar/www/yii/blog/protected/modules/boss/views/login/index.php:30)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): LoginController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): LoginController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php(13): LoginController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): LoginController->actionIndex()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): LoginController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): LoginController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/login
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/login/index.php (30)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (13)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/10 14:29:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in /home/spoplar/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(270): CController->missingAction('captcha')
+#1 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('captcha')
+#2 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/login/capt...')
+#3 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=boss/login/captcha&v=55f12360271e5
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/login
+---
+2015/09/10 14:29:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in /home/spoplar/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(270): CController->missingAction('captcha')
+#1 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('captcha')
+#2 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/login/capt...')
+#3 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=boss/login/captcha&v=55f12360271e5
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/login
+---
+2015/09/10 14:29:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in /home/spoplar/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(270): CController->missingAction('captcha')
+#1 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('captcha')
+#2 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/login/capt...')
+#3 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=boss/login/captcha&v=55f12362ab8f1
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/login
+---
+2015/09/10 14:29:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in /home/spoplar/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(270): CController->missingAction('captcha')
+#1 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('captcha')
+#2 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/login/capt...')
+#3 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=boss/login/captcha&v=55f12362ab8f1
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/login
+---
+2015/09/10 14:29:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in /home/spoplar/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(270): CController->missingAction('captcha')
+#1 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('captcha')
+#2 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/login/capt...')
+#3 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=boss/login/captcha&v=55f123637e775
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/login
+---
+2015/09/10 14:29:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in /home/spoplar/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(270): CController->missingAction('captcha')
+#1 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('captcha')
+#2 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/login/capt...')
+#3 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=boss/login/captcha&v=55f123637e775
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/login
+---
+2015/09/10 14:34:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in /home/spoplar/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(270): CController->missingAction('captcha')
+#1 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('captcha')
+#2 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/login/capt...')
+#3 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=boss/login/captcha&v=55f1246048bd7
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/login
+---
+2015/09/10 14:34:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in /home/spoplar/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(270): CController->missingAction('captcha')
+#1 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('captcha')
+#2 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/login/capt...')
+#3 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=boss/login/captcha&v=55f1246048bd7
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/login
+---
+2015/09/10 14:34:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in /home/spoplar/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(270): CController->missingAction('captcha')
+#1 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('captcha')
+#2 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/login/capt...')
+#3 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=boss/login/captcha&refresh=1&_=1441866853079
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/login
+---
+2015/09/10 14:34:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in /home/spoplar/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(270): CController->missingAction('captcha')
+#1 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('captcha')
+#2 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/login/capt...')
+#3 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=boss/login/captcha&refresh=1&_=1441866853703
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/login
+---
+2015/09/10 14:34:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in /home/spoplar/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(270): CController->missingAction('captcha')
+#1 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('captcha')
+#2 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/login/capt...')
+#3 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=boss/login/captcha&v=55f1246631c87
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/login
+---
+2015/09/10 14:34:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in /home/spoplar/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(270): CController->missingAction('captcha')
+#1 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('captcha')
+#2 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/login/capt...')
+#3 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=boss/login/captcha&v=55f1246631c87
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/login
+---
+2015/09/10 14:34:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in /home/spoplar/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(270): CController->missingAction('captcha')
+#1 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('captcha')
+#2 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/login/capt...')
+#3 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=boss/login/captcha&v=55f12467c47a4
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/login
+---
+2015/09/10 14:34:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in /home/spoplar/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(270): CController->missingAction('captcha')
+#1 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('captcha')
+#2 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/login/capt...')
+#3 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=boss/login/captcha&v=55f12467c47a4
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/login
+---
+2015/09/10 14:34:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in /home/spoplar/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(270): CController->missingAction('captcha')
+#1 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('captcha')
+#2 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/login/capt...')
+#3 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=boss/login/captcha&v=55f12468bea5f
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/login
+---
+2015/09/10 14:34:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in /home/spoplar/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(270): CController->missingAction('captcha')
+#1 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('captcha')
+#2 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/login/capt...')
+#3 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=boss/login/captcha&v=55f12468bea5f
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/login
+---
+2015/09/10 14:34:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in /home/spoplar/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(270): CController->missingAction('captcha')
+#1 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('captcha')
+#2 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/login/capt...')
+#3 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=boss/login/captcha&v=55f12469a0d99
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/login
+---
+2015/09/10 14:34:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in /home/spoplar/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(270): CController->missingAction('captcha')
+#1 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('captcha')
+#2 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/login/capt...')
+#3 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=boss/login/captcha&v=55f12469a0d99
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/login
+---
+2015/09/10 14:34:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in /home/spoplar/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(270): CController->missingAction('captcha')
+#1 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('captcha')
+#2 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/login/capt...')
+#3 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=boss/login/captcha&v=55f1246ab75f9
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/login
+---
+2015/09/10 14:34:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in /home/spoplar/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(270): CController->missingAction('captcha')
+#1 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('captcha')
+#2 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/login/capt...')
+#3 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=boss/login/captcha&v=55f1246ab75f9
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/login
+---
+2015/09/10 14:35:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in /home/spoplar/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(270): CController->missingAction('captcha')
+#1 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('captcha')
+#2 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/login/capt...')
+#3 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=boss/login/captcha&v=55f1249eb7b0b
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/login
+---
+2015/09/10 14:35:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in /home/spoplar/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(270): CController->missingAction('captcha')
+#1 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('captcha')
+#2 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/login/capt...')
+#3 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=boss/login/captcha&v=55f1249eb7b0b
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/login
+---
+2015/09/10 14:40:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in /home/spoplar/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(270): CController->missingAction('captcha')
+#1 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('captcha')
+#2 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/login/capt...')
+#3 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=boss/login/captcha&v=55f125f08dd43
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/login
+---
+2015/09/10 15:34:12 [error] [php] Undefined variable: loginForm (/home/spoplar/www/yii/blog/protected/modules/boss/views/login/index.php:30)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): LoginController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): LoginController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php(14): LoginController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): LoginController->actionIndex()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): LoginController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): LoginController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/login
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/login/index.php (30)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (14)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/10 15:34:14 [error] [php] Undefined variable: loginForm (/home/spoplar/www/yii/blog/protected/modules/boss/views/login/index.php:30)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): LoginController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): LoginController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php(14): LoginController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): LoginController->actionIndex()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): LoginController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): LoginController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/login
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/login/index.php (30)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (14)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/10 15:35:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in /home/spoplar/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(270): CController->missingAction('captcha')
+#1 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('captcha')
+#2 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/login/capt...')
+#3 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=boss/login/captcha&v=55f132bd95025
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/login
+---
+2015/09/10 15:37:12 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.captcha" is not defined.' in /home/spoplar/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/helpers/CHtml.php(2729): CComponent->__get('captcha')
+#1 /home/spoplar/www/yii/framework/web/helpers/CHtml.php(2452): CHtml::resolveValue(Object(LoginForm), 'captcha')
+#2 /home/spoplar/www/yii/framework/web/helpers/CHtml.php(1534): CHtml::activeInputField('text', Object(LoginForm), 'captcha', Array)
+#3 /home/spoplar/www/yii/framework/web/widgets/CActiveForm.php(793): CHtml::activeTextField(Object(LoginForm), 'captcha', Array)
+#4 /home/spoplar/www/yii/blog/protected/modules/boss/views/login/index.php(15): CActiveForm->textField(Object(LoginForm), 'captcha', Array)
+#5 /home/spoplar/www/yii/framework/web/CBaseController.php(126): require('/home/spoplar/w...')
+#6 /home/spoplar/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/spoplar/w...', Array, true)
+#7 /home/spoplar/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/spoplar/w...', Array, true)
+#8 /home/spoplar/www/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#9 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php(14): CController->render('index', Array)
+#10 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): LoginController->actionIndex()
+#11 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /home/spoplar/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#13 /home/spoplar/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#15 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/login')
+#16 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#17 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php?r=boss/login
+---
+2015/09/10 15:37:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in /home/spoplar/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(270): CController->missingAction('captcha')
+#1 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('captcha')
+#2 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/login/capt...')
+#3 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=boss/login/captcha&v=55f1333c91c94
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/login
+---
+2015/09/10 15:37:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in /home/spoplar/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(270): CController->missingAction('captcha')
+#1 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('captcha')
+#2 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/login/capt...')
+#3 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=boss/login/captcha&refresh=1&_=1441870652675
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/login
+---
+2015/09/10 15:41:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in /home/spoplar/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(270): CController->missingAction('captcha')
+#1 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('captcha')
+#2 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/login/capt...')
+#3 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=boss/login/captcha&v=55f13421c84e5
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/login
+---
+2015/09/10 15:45:42 [error] [exception.CException] exception 'CException' with message 'CActiveForm and its behaviors do not have a method or closure named "submit".' in /home/spoplar/www/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/spoplar/www/yii/blog/protected/modules/boss/views/login/index.php(27): CComponent->__call('submit', Array)
+#1 /home/spoplar/www/yii/blog/protected/modules/boss/views/login/index.php(27): CActiveForm->submit()
+#2 /home/spoplar/www/yii/framework/web/CBaseController.php(126): require('/home/spoplar/w...')
+#3 /home/spoplar/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/spoplar/w...', Array, true)
+#4 /home/spoplar/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/spoplar/w...', Array, true)
+#5 /home/spoplar/www/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#6 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php(14): CController->render('index', Array)
+#7 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): LoginController->actionIndex()
+#8 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/spoplar/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /home/spoplar/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#12 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/login')
+#13 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#14 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=boss/login
+---
+2015/09/10 16:02:42 [error] [exception.CException] exception 'CException' with message 'Alias "system.web.widgets.CCaptchaAction" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/spoplar/www/yii/framework/YiiBase.php:323
+Stack trace:
+#0 /home/spoplar/www/yii/framework/YiiBase.php(196): YiiBase::import('system.web.widg...', true)
+#1 /home/spoplar/www/yii/framework/web/CController.php(440): YiiBase::createComponent(Array, Object(LoginController), 'captcha')
+#2 /home/spoplar/www/yii/framework/web/CController.php(417): CController->createActionFromMap(Array, 'captcha', 'captcha')
+#3 /home/spoplar/www/yii/framework/web/CController.php(259): CController->createAction('captcha')
+#4 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('captcha')
+#5 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/login/capt...')
+#6 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/index.php?r=boss/login/captcha
+---
+2015/09/10 16:04:05 [error] [exception.CException] exception 'CException' with message 'Property "CCaptchaAction.heigth" is not defined.' in /home/spoplar/www/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/spoplar/www/yii/framework/YiiBase.php(220): CComponent->__set('heigth', 25)
+#1 /home/spoplar/www/yii/framework/web/CController.php(440): YiiBase::createComponent(Array, Object(LoginController), 'captcha')
+#2 /home/spoplar/www/yii/framework/web/CController.php(417): CController->createActionFromMap(Array, 'captcha', 'captcha')
+#3 /home/spoplar/www/yii/framework/web/CController.php(259): CController->createAction('captcha')
+#4 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('captcha')
+#5 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/login/capt...')
+#6 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/index.php?r=boss/login/captcha
+---
+2015/09/10 16:05:03 [error] [exception.CException] exception 'CException' with message 'Property "CCaptchaAction.widht" is not defined.' in /home/spoplar/www/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/spoplar/www/yii/framework/YiiBase.php(220): CComponent->__set('widht', 80)
+#1 /home/spoplar/www/yii/framework/web/CController.php(440): YiiBase::createComponent(Array, Object(LoginController), 'captcha')
+#2 /home/spoplar/www/yii/framework/web/CController.php(417): CController->createActionFromMap(Array, 'captcha', 'captcha')
+#3 /home/spoplar/www/yii/framework/web/CController.php(259): CController->createAction('captcha')
+#4 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('captcha')
+#5 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/login/capt...')
+#6 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/index.php?r=boss/login/captcha
+---
+2015/09/10 16:12:21 [error] [php] include(CCapture.php): failed to open stream: No such file or directory (/home/spoplar/www/yii/framework/YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 /home/spoplar/www/yii/framework/YiiBase.php(303): class_exists()
+#2 /home/spoplar/www/yii/framework/web/CWidgetFactory.php(146): import()
+#3 /home/spoplar/www/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget()
+#4 /home/spoplar/www/yii/framework/web/CBaseController.php(180): LoginController->createWidget()
+#5 /home/spoplar/www/yii/blog/protected/modules/boss/views/login/index.php(28): LoginController->widget()
+#6 /home/spoplar/www/yii/framework/web/CBaseController.php(126): require()
+#7 /home/spoplar/www/yii/framework/web/CBaseController.php(95): LoginController->renderInternal()
+#8 /home/spoplar/www/yii/framework/web/CController.php(869): LoginController->renderFile()
+#9 /home/spoplar/www/yii/framework/web/CController.php(782): LoginController->renderPartial()
+#10 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php(14): LoginController->render()
+#11 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): LoginController->actionIndex()
+#12 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#13 /home/spoplar/www/yii/framework/web/CController.php(286): LoginController->runAction()
+#14 /home/spoplar/www/yii/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#15 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): LoginController->run()
+#16 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#17 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/login
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/login/index.php (28)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (14)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/10 16:24:14 [warning] [application] Failed to set unsafe attribute "LoginForm" of "LoginForm".
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (17)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/10 16:25:46 [warning] [application] Failed to set unsafe attribute "LoginForm" of "LoginForm".
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (17)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/10 16:27:53 [warning] [application] Failed to set unsafe attribute "LoginForm" of "LoginForm".
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (17)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/10 16:28:27 [warning] [application] Failed to set unsafe attribute "LoginForm" of "LoginForm".
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (17)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/10 16:28:30 [warning] [application] Failed to set unsafe attribute "LoginForm" of "LoginForm".
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (17)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/10 16:28:35 [warning] [application] Failed to set unsafe attribute "LoginForm" of "LoginForm".
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (17)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/10 16:48:35 [error] [php] Undefined variable: app (/home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php:13)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(286): LoginController->runAction()
+#1 /home/spoplar/www/yii/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#2 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): LoginController->run()
+#3 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/login
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (13)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/10 16:49:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/spoplar/www/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /home/spoplar/www/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /home/spoplar/www/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /home/spoplar/www/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /home/spoplar/www/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php(13): CModule->__get('db')
+#5 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): LoginController->actionIndex()
+#6 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /home/spoplar/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#8 /home/spoplar/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#10 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/login')
+#11 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/index.php?r=boss/login
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/login
+---
+2015/09/10 16:49:37 [warning] [application] Failed to set unsafe attribute "LoginForm" of "LoginForm".
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (17)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/10 16:57:30 [error] [exception.CException] exception 'CException' with message 'User and its behaviors do not have a method or closure named "asArray".' in /home/spoplar/www/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/spoplar/www/yii/framework/db/ar/CActiveRecord.php(227): CComponent->__call('asArray', Array)
+#1 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php(15): CActiveRecord->__call('asArray', Array)
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php(15): User->asArray()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): LoginController->actionIndex()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/login')
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=boss/login
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/login
+---
+2015/09/10 17:43:14 [warning] [application] Failed to set unsafe attribute "LoginForm" of "LoginForm".
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (20)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/10 17:43:27 [warning] [application] Failed to set unsafe attribute "LoginForm" of "LoginForm".
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (20)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/10 17:45:32 [warning] [application] Failed to set unsafe attribute "LoginForm" of "LoginForm".
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (20)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/10 17:45:48 [warning] [application] Failed to set unsafe attribute "LoginForm" of "LoginForm".
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (20)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/10 17:45:57 [warning] [application] Failed to set unsafe attribute "LoginForm" of "LoginForm".
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (20)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/10 17:50:56 [warning] [application] Failed to set unsafe attribute "LoginForm" of "LoginForm".
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (20)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/10 17:51:10 [warning] [application] Failed to set unsafe attribute "LoginForm" of "LoginForm".
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (20)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 09:18:35 [warning] [application] Failed to set unsafe attribute "LoginForm" of "LoginForm".
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (20)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 09:19:20 [warning] [application] Failed to set unsafe attribute "LoginForm" of "LoginForm".
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (20)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 09:19:40 [warning] [application] Failed to set unsafe attribute "LoginForm" of "LoginForm".
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (20)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 09:19:48 [warning] [application] Failed to set unsafe attribute "LoginForm" of "LoginForm".
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (20)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 09:20:01 [warning] [application] Failed to set unsafe attribute "LoginForm" of "LoginForm".
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (20)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 09:22:34 [warning] [application] Failed to set unsafe attribute "LoginForm" of "LoginForm".
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (20)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 09:39:41 [warning] [application] Failed to set unsafe attribute "LoginForm" of "LoginForm".
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (20)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 09:39:47 [warning] [application] Failed to set unsafe attribute "LoginForm" of "LoginForm".
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (20)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 09:40:10 [warning] [application] Failed to set unsafe attribute "LoginForm" of "LoginForm".
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (20)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 09:46:19 [warning] [application] Failed to set unsafe attribute "LoginForm" of "LoginForm".
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (20)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 09:47:59 [warning] [application] Failed to set unsafe attribute "LoginForm" of "LoginForm".
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (20)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 09:48:07 [warning] [application] Failed to set unsafe attribute "LoginForm" of "LoginForm".
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (20)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 09:48:19 [warning] [application] Failed to set unsafe attribute "LoginForm" of "LoginForm".
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (20)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 09:49:01 [warning] [application] Failed to set unsafe attribute "LoginForm" of "LoginForm".
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (20)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 09:49:01 [error] [php] Undefined variable: info (/home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php:22)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(286): LoginController->runAction()
+#1 /home/spoplar/www/yii/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#2 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): LoginController->run()
+#3 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/login/index
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (22)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 09:49:10 [warning] [application] Failed to set unsafe attribute "LoginForm" of "LoginForm".
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (20)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 09:49:16 [warning] [application] Failed to set unsafe attribute "LoginForm" of "LoginForm".
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (20)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 09:51:16 [warning] [application] Failed to set unsafe attribute "LoginForm" of "LoginForm".
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (20)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 09:53:48 [warning] [application] Failed to set unsafe attribute "LoginForm" of "LoginForm".
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (20)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 09:57:01 [error] [php] Undefined index: loginForm (/home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php:20)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(286): LoginController->runAction()
+#1 /home/spoplar/www/yii/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#2 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): LoginController->run()
+#3 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/login/index
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (20)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 09:57:13 [warning] [application] Failed to set unsafe attribute "captcha" of "LoginForm".
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (20)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 10:01:42 [error] [php] Undefined index: LoginForm (/home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php:20)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(286): LoginController->runAction()
+#1 /home/spoplar/www/yii/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#2 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): LoginController->run()
+#3 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/login/index
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/LoginController.php (20)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 10:27:26 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "index".' in /home/spoplar/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#1 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/DefaultController.php(7): CController->render('index')
+#2 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#3 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/spoplar/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/spoplar/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/default/in...')
+#8 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=boss/default/index
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/login/index
+---
+2015/09/11 10:30:25 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "index".' in /home/spoplar/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#1 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/DefaultController.php(7): CController->render('index')
+#2 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#3 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/spoplar/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/spoplar/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/default/in...')
+#8 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=boss/default/index
+---
+2015/09/11 10:30:26 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "index".' in /home/spoplar/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#1 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/DefaultController.php(7): CController->render('index')
+#2 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#3 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/spoplar/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/spoplar/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/default/in...')
+#8 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=boss/default/index
+---
+2015/09/11 10:31:47 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "index".' in /home/spoplar/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#1 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/DefaultController.php(7): CController->render('index')
+#2 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#3 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/spoplar/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/spoplar/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/default/in...')
+#8 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=boss/default/index
+---
+2015/09/11 10:32:15 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "index".' in /home/spoplar/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#1 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/DefaultController.php(7): CController->render('index')
+#2 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#3 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/spoplar/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/spoplar/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/default/in...')
+#8 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=boss/default/index
+---
+2015/09/11 10:32:36 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "index".' in /home/spoplar/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/DefaultController.php(7): CController->renderPartial('index')
+#1 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#2 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/spoplar/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#4 /home/spoplar/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#6 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/default/in...')
+#7 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#8 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php?r=boss/default/index
+---
+2015/09/11 10:35:12 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "index".' in /home/spoplar/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/DefaultController.php(7): CController->renderPartial('index')
+#1 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#2 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/spoplar/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#4 /home/spoplar/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#6 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/default/')
+#7 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#8 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php?r=boss/default/
+---
+2015/09/11 10:35:22 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "index".' in /home/spoplar/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/DefaultController.php(7): CController->renderPartial('index')
+#1 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#2 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/spoplar/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#4 /home/spoplar/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#6 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/default/')
+#7 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#8 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php?r=boss/default/
+---
+2015/09/11 10:35:56 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "index".' in /home/spoplar/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/DefaultController.php(7): CController->renderPartial('index')
+#1 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#2 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/spoplar/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#4 /home/spoplar/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#6 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/default/')
+#7 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#8 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php?r=boss/default/
+---
+2015/09/11 10:36:45 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "copy".' in /home/spoplar/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(782): CController->renderPartial('copy', NULL, true)
+#1 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/DefaultController.php(10): CController->render('copy')
+#2 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionCopy()
+#3 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/spoplar/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/spoplar/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('copy')
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/default/co...')
+#8 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=boss/default/copy
+---
+2015/09/11 10:37:17 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "copy".' in /home/spoplar/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(782): CController->renderPartial('copy', Array, true)
+#1 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/DefaultController.php(10): CController->render('copy', Array)
+#2 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionCopy()
+#3 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/spoplar/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/spoplar/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('copy')
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/default/co...')
+#8 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=boss/default/copy
+---
+2015/09/11 10:41:56 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "copy".' in /home/spoplar/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(782): CController->renderPartial('copy', NULL, true)
+#1 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/DefaultController.php(10): CController->render('copy')
+#2 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionCopy()
+#3 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/spoplar/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/spoplar/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('copy')
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/default/co...')
+#8 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=boss/default/copy
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/index
+---
+2015/09/11 10:42:40 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "copy".' in /home/spoplar/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(782): CController->renderPartial('copy', NULL, true)
+#1 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/DefaultController.php(10): CController->render('copy')
+#2 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionCopy()
+#3 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/spoplar/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/spoplar/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('copy')
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/default/co...')
+#8 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=boss/default/copy
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/index
+---
+2015/09/11 10:42:52 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "copy".' in /home/spoplar/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(782): CController->renderPartial('copy', NULL, true)
+#1 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/DefaultController.php(10): CController->render('copy')
+#2 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionCopy()
+#3 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/spoplar/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/spoplar/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('copy')
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/default/co...')
+#8 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=boss/default/copy
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/index
+---
+2015/09/11 10:48:13 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "index".' in /home/spoplar/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/DefaultController.php(7): CController->renderPartial('index')
+#1 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#2 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/spoplar/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#4 /home/spoplar/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#6 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/default/')
+#7 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#8 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php?r=boss/default/
+---
+2015/09/11 10:48:39 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "copy".' in /home/spoplar/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(782): CController->renderPartial('copy', NULL, true)
+#1 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/DefaultController.php(10): CController->render('copy')
+#2 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionCopy()
+#3 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/spoplar/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/spoplar/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('copy')
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/default/co...')
+#8 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=boss/default/copy
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/index
+---
+2015/09/11 10:48:42 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "copy".' in /home/spoplar/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(782): CController->renderPartial('copy', NULL, true)
+#1 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/DefaultController.php(10): CController->render('copy')
+#2 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionCopy()
+#3 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/spoplar/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/spoplar/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('copy')
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/default/co...')
+#8 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=boss/default/copy
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/index
+---
+2015/09/11 10:49:21 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "copy".' in /home/spoplar/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(782): CController->renderPartial('copy', NULL, true)
+#1 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/DefaultController.php(10): CController->render('copy')
+#2 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionCopy()
+#3 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/spoplar/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/spoplar/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('copy')
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/default/co...')
+#8 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=boss/default/copy
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/index
+---
+2015/09/11 10:49:28 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "copy".' in /home/spoplar/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(782): CController->renderPartial('copy', NULL, true)
+#1 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/DefaultController.php(10): CController->render('copy')
+#2 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionCopy()
+#3 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/spoplar/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/spoplar/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('copy')
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/default/co...')
+#8 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=boss/default/copy
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/index
+---
+2015/09/11 11:25:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/spoplar/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/user')
+#3 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=boss/user
+---
+2015/09/11 11:25:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "boss/passwd".' in /home/spoplar/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/passwd')
+#1 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=boss/passwd
+---
+2015/09/11 11:25:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "boss/Passwd".' in /home/spoplar/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/Passwd')
+#1 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=boss/Passwd
+---
+2015/09/11 11:26:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/spoplar/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/user')
+#3 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=boss/user
+---
+2015/09/11 11:26:10 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "index".' in /home/spoplar/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#1 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/UserController.php(16): CController->render('index')
+#2 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): UserController->actionPasswd()
+#3 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/spoplar/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/spoplar/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('passwd')
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/user/passw...')
+#8 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=boss/user/passwd
+---
+2015/09/11 11:31:56 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "index".' in /home/spoplar/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#1 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/UserController.php(16): CController->render('index')
+#2 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): UserController->actionPasswd()
+#3 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/spoplar/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/spoplar/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('passwd')
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/user/passw...')
+#8 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=boss/user/passwd
+---
+2015/09/11 11:31:57 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "index".' in /home/spoplar/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#1 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/UserController.php(16): CController->render('index')
+#2 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): UserController->actionPasswd()
+#3 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/spoplar/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/spoplar/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('passwd')
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/user/passw...')
+#8 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=boss/user/passwd
+---
+2015/09/11 11:31:57 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "index".' in /home/spoplar/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#1 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/UserController.php(16): CController->render('index')
+#2 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): UserController->actionPasswd()
+#3 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/spoplar/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/spoplar/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('passwd')
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/user/passw...')
+#8 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=boss/user/passwd
+---
+2015/09/11 11:31:58 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "index".' in /home/spoplar/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#1 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/UserController.php(16): CController->render('index')
+#2 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): UserController->actionPasswd()
+#3 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/spoplar/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/spoplar/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('passwd')
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/user/passw...')
+#8 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=boss/user/passwd
+---
+2015/09/11 11:33:55 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "index".' in /home/spoplar/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#1 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/UserController.php(19): CController->render('index')
+#2 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): UserController->actionPasswd()
+#3 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/spoplar/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/spoplar/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('passwd')
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/user/passw...')
+#8 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=boss/user/passwd
+---
+2015/09/11 11:33:58 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "index".' in /home/spoplar/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#1 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/UserController.php(15): CController->render('index')
+#2 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): UserController->actionIndex()
+#3 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/spoplar/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/spoplar/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/user/')
+#8 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=boss/user/
+---
+2015/09/11 11:36:21 [error] [php] Undefined variable: userModel (/home/spoplar/www/yii/blog/protected/modules/boss/views/user/index.php:30)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): UserController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): UserController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/UserController.php(15): UserController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): UserController->actionIndex()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): UserController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): UserController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): UserController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/user/
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/user/index.php (30)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/UserController.php (15)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 11:48:35 [error] [php] Undefined variable: userModel (/home/spoplar/www/yii/blog/protected/modules/boss/views/user/index.php:33)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): UserController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): UserController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/UserController.php(15): UserController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): UserController->actionIndex()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): UserController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): UserController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): UserController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/user/
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/user/index.php (33)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/UserController.php (15)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 11:48:37 [error] [php] Undefined variable: userModel (/home/spoplar/www/yii/blog/protected/modules/boss/views/user/index.php:33)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): UserController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): UserController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/UserController.php(15): UserController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): UserController->actionIndex()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): UserController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): UserController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): UserController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/user/
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/user/index.php (33)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/UserController.php (15)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 11:48:38 [error] [php] Undefined variable: userModel (/home/spoplar/www/yii/blog/protected/modules/boss/views/user/index.php:33)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): UserController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): UserController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/UserController.php(15): UserController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): UserController->actionIndex()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): UserController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): UserController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): UserController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/user/
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/user/index.php (33)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/UserController.php (15)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 11:49:25 [error] [php] Undefined variable: userModel (/home/spoplar/www/yii/blog/protected/modules/boss/views/user/index.php:33)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): UserController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): UserController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/UserController.php(15): UserController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): UserController->actionIndex()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): UserController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): UserController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): UserController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/user/
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/user/index.php (33)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/UserController.php (15)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 11:49:41 [error] [php] Undefined variable: userModel (/home/spoplar/www/yii/blog/protected/modules/boss/views/user/index.php:33)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): UserController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): UserController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/UserController.php(15): UserController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): UserController->actionIndex()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): UserController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): UserController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): UserController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/user/
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/user/index.php (33)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/UserController.php (15)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 11:49:42 [error] [php] Undefined variable: userModel (/home/spoplar/www/yii/blog/protected/modules/boss/views/user/index.php:33)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): UserController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): UserController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/UserController.php(15): UserController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): UserController->actionIndex()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): UserController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): UserController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): UserController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/user/
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/user/index.php (33)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/UserController.php (15)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 11:50:52 [error] [php] Undefined variable: userModel (/home/spoplar/www/yii/blog/protected/modules/boss/views/user/index.php:33)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): UserController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): UserController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/UserController.php(15): UserController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): UserController->actionIndex()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): UserController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): UserController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): UserController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/user/
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/user/index.php (33)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/UserController.php (15)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 11:50:53 [error] [php] Undefined variable: userModel (/home/spoplar/www/yii/blog/protected/modules/boss/views/user/index.php:33)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): UserController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): UserController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/UserController.php(15): UserController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): UserController->actionIndex()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): UserController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): UserController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): UserController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/user/
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/user/index.php (33)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/UserController.php (15)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 11:52:16 [error] [php] Undefined variable: userModel (/home/spoplar/www/yii/blog/protected/modules/boss/views/user/index.php:19)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): UserController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): UserController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/UserController.php(15): UserController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): UserController->actionIndex()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): UserController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): UserController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): UserController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/user/
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/user/index.php (19)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/UserController.php (15)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 12:07:00 [error] [exception.CException] exception 'CException' with message 'Property "CCompareValidator.compareAttibute" is not defined.' in /home/spoplar/www/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/spoplar/www/yii/framework/validators/CValidator.php(177): CComponent->__set('compareAttibute', 'password1')
+#1 /home/spoplar/www/yii/framework/base/CModel.php(287): CValidator::createValidator('compare', Object(User), 'password2', Array)
+#2 /home/spoplar/www/yii/framework/base/CModel.php(260): CModel->createValidators()
+#3 /home/spoplar/www/yii/framework/base/CModel.php(547): CModel->getValidators()
+#4 /home/spoplar/www/yii/framework/base/CModel.php(468): CModel->getSafeAttributeNames()
+#5 /home/spoplar/www/yii/framework/base/CComponent.php(152): CModel->setAttributes(Array)
+#6 /home/spoplar/www/yii/framework/db/ar/CActiveRecord.php(161): CComponent->__set('attributes', Array)
+#7 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/UserController.php(21): CActiveRecord->__set('attributes', Array)
+#8 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): UserController->actionPasswd()
+#9 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /home/spoplar/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /home/spoplar/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('passwd')
+#13 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/user/passw...')
+#14 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=boss/user/passwd
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/user/passwd
+---
+2015/09/11 12:16:52 [error] [exception.CException] exception 'CException' with message 'User and its behaviors do not have a method or closure named "password".' in /home/spoplar/www/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/spoplar/www/yii/framework/db/ar/CActiveRecord.php(227): CComponent->__call('password', Array)
+#1 /home/spoplar/www/yii/blog/protected/models/User.php(55): CActiveRecord->__call('password', Array)
+#2 /home/spoplar/www/yii/blog/protected/models/User.php(55): User->password()
+#3 /home/spoplar/www/yii/framework/validators/CInlineValidator.php(42): User->check_passwd('password', Array)
+#4 /home/spoplar/www/yii/framework/validators/CValidator.php(201): CInlineValidator->validateAttribute(Object(User), 'password')
+#5 /home/spoplar/www/yii/framework/base/CModel.php(159): CValidator->validate(Object(User), NULL)
+#6 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/UserController.php(22): CModel->validate()
+#7 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): UserController->actionPasswd()
+#8 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/spoplar/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /home/spoplar/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('passwd')
+#12 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/user/passw...')
+#13 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#14 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=boss/user/passwd
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/user/passwd
+---
+2015/09/11 14:19:38 [error] [php] Undefined index: User (/home/spoplar/www/yii/blog/protected/modules/boss/controllers/UserController.php:20)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(286): UserController->runAction()
+#1 /home/spoplar/www/yii/framework/web/CController.php(265): UserController->runActionWithFilters()
+#2 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): UserController->run()
+#3 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/user/passwd
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/UserController.php (20)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 14:20:44 [error] [php] Undefined index: username (/home/spoplar/www/yii/blog/protected/modules/boss/controllers/UserController.php:21)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(286): UserController->runAction()
+#1 /home/spoplar/www/yii/framework/web/CController.php(265): UserController->runActionWithFilters()
+#2 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): UserController->run()
+#3 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/user/passwd
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/UserController.php (21)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 14:52:44 [error] [php] Undefined variable: articleInfo (/home/spoplar/www/yii/blog/protected/modules/boss/views/category/index.php:4)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): CategoryController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): CategoryController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/CategoryController.php(13): CategoryController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): CategoryController->actionIndex()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): CategoryController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): CategoryController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CategoryController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/Category/index
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/category/index.php (4)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/CategoryController.php (13)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 14:52:46 [error] [exception.CException] exception 'CException' with message 'CategoryController cannot find the requested view "add".' in /home/spoplar/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(782): CController->renderPartial('add', NULL, true)
+#1 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/CategoryController.php(18): CController->render('add')
+#2 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): CategoryController->actionAdd()
+#3 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/spoplar/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/spoplar/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('add')
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/Category/a...')
+#8 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=boss/Category/add
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/
+---
+2015/09/11 14:52:48 [error] [exception.CException] exception 'CException' with message 'CategoryController cannot find the requested view "add".' in /home/spoplar/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(782): CController->renderPartial('add', NULL, true)
+#1 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/CategoryController.php(18): CController->render('add')
+#2 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): CategoryController->actionAdd()
+#3 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/spoplar/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/spoplar/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('add')
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/Category/a...')
+#8 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=boss/Category/add
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/
+---
+2015/09/11 14:52:49 [error] [php] Undefined variable: articleInfo (/home/spoplar/www/yii/blog/protected/modules/boss/views/category/index.php:4)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): CategoryController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): CategoryController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/CategoryController.php(13): CategoryController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): CategoryController->actionIndex()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): CategoryController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): CategoryController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CategoryController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/Category/index
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/category/index.php (4)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/CategoryController.php (13)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 14:52:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "boss/article/add".' in /home/spoplar/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/article/ad...')
+#1 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=boss/article/add
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/
+---
+2015/09/11 14:52:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "boss/article/index".' in /home/spoplar/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/article/in...')
+#1 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=boss/article/index
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/
+---
+2015/09/11 14:53:01 [error] [php] Undefined variable: articleInfo (/home/spoplar/www/yii/blog/protected/modules/boss/views/category/index.php:4)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): CategoryController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): CategoryController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/CategoryController.php(13): CategoryController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): CategoryController->actionIndex()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): CategoryController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): CategoryController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CategoryController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/Category/index
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/category/index.php (4)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/CategoryController.php (13)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 14:53:52 [error] [exception.CException] exception 'CException' with message 'CategoryController cannot find the requested view "add".' in /home/spoplar/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(782): CController->renderPartial('add', NULL, true)
+#1 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/CategoryController.php(18): CController->render('add')
+#2 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): CategoryController->actionAdd()
+#3 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/spoplar/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/spoplar/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('add')
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/Category/a...')
+#8 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=boss/Category/add
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/
+---
+2015/09/11 15:00:58 [error] [php] Undefined variable: categoryModel (/home/spoplar/www/yii/blog/protected/modules/boss/views/category/add.php:25)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): CategoryController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): CategoryController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/CategoryController.php(18): CategoryController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): CategoryController->actionAdd()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): CategoryController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): CategoryController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CategoryController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/Category/add
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/category/add.php (25)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/CategoryController.php (18)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 15:01:01 [error] [php] Undefined variable: articleInfo (/home/spoplar/www/yii/blog/protected/modules/boss/views/category/index.php:4)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): CategoryController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): CategoryController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/CategoryController.php(13): CategoryController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): CategoryController->actionIndex()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): CategoryController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): CategoryController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CategoryController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/Category/index
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/category/index.php (4)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/CategoryController.php (13)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 15:01:02 [error] [php] Undefined variable: categoryModel (/home/spoplar/www/yii/blog/protected/modules/boss/views/category/add.php:25)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): CategoryController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): CategoryController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/CategoryController.php(18): CategoryController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): CategoryController->actionAdd()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): CategoryController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): CategoryController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CategoryController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/Category/add
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/category/add.php (25)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/CategoryController.php (18)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 15:01:03 [error] [php] Undefined variable: articleInfo (/home/spoplar/www/yii/blog/protected/modules/boss/views/category/index.php:4)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): CategoryController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): CategoryController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/CategoryController.php(13): CategoryController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): CategoryController->actionIndex()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): CategoryController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): CategoryController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CategoryController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/Category/index
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/category/index.php (4)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/CategoryController.php (13)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 15:03:22 [error] [php] Undefined variable: articleInfo (/home/spoplar/www/yii/blog/protected/modules/boss/views/category/index.php:4)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): CategoryController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): CategoryController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/CategoryController.php(13): CategoryController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): CategoryController->actionIndex()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): CategoryController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): CategoryController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CategoryController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/Category/index
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/category/index.php (4)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/CategoryController.php (13)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 15:09:15 [error] [exception.CException] exception 'CException' with message 'Category has an invalid validation rule. The rule must specify attributes to be validated and the validator name.' in /home/spoplar/www/yii/framework/base/CModel.php:289
+Stack trace:
+#0 /home/spoplar/www/yii/framework/base/CModel.php(260): CModel->createValidators()
+#1 /home/spoplar/www/yii/framework/base/CModel.php(304): CModel->getValidators('cname')
+#2 /home/spoplar/www/yii/framework/web/helpers/CHtml.php(1514): CModel->isAttributeRequired('cname')
+#3 /home/spoplar/www/yii/framework/web/widgets/CActiveForm.php(600): CHtml::activeLabelEx(Object(Category), 'cname', Array)
+#4 /home/spoplar/www/yii/blog/protected/modules/boss/views/category/add.php(25): CActiveForm->labelEx(Object(Category), 'cname')
+#5 /home/spoplar/www/yii/framework/web/CBaseController.php(126): require('/home/spoplar/w...')
+#6 /home/spoplar/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/spoplar/w...', Array, true)
+#7 /home/spoplar/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/spoplar/w...', Array, true)
+#8 /home/spoplar/www/yii/framework/web/CController.php(782): CController->renderPartial('add', Array, true)
+#9 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/CategoryController.php(19): CController->render('add', Array)
+#10 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): CategoryController->actionAdd()
+#11 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /home/spoplar/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#13 /home/spoplar/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('add')
+#15 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/Category/a...')
+#16 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#17 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php?r=boss/Category/add
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/Category/add
+---
+2015/09/11 15:13:44 [error] [php] Undefined variable: articleInfo (/home/spoplar/www/yii/blog/protected/modules/boss/views/category/index.php:4)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): CategoryController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): CategoryController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/CategoryController.php(13): CategoryController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): CategoryController->actionIndex()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): CategoryController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): CategoryController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CategoryController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/Category/index
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/category/index.php (4)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/CategoryController.php (13)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 15:14:50 [error] [php] Undefined variable: articleInfo (/home/spoplar/www/yii/blog/protected/modules/boss/views/category/index.php:4)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): CategoryController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): CategoryController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/CategoryController.php(13): CategoryController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): CategoryController->actionIndex()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): CategoryController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): CategoryController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CategoryController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/Category/index
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/category/index.php (4)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/CategoryController.php (13)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 15:30:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "boss/article/add".' in /home/spoplar/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/article/ad...')
+#1 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=boss/article/add
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/
+---
+2015/09/11 15:30:28 [error] [exception.CException] exception 'CException' with message 'Property "Category.aid" is not defined.' in /home/spoplar/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/spoplar/www/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('aid')
+#1 /home/spoplar/www/yii/blog/protected/modules/boss/views/category/index.php(7): CActiveRecord->__get('aid')
+#2 /home/spoplar/www/yii/framework/web/CBaseController.php(126): require('/home/spoplar/w...')
+#3 /home/spoplar/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/spoplar/w...', Array, true)
+#4 /home/spoplar/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/spoplar/w...', Array, true)
+#5 /home/spoplar/www/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#6 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/CategoryController.php(14): CController->render('index', Array)
+#7 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): CategoryController->actionIndex()
+#8 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/spoplar/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /home/spoplar/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#12 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/Category/i...')
+#13 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#14 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=boss/Category/index
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/
+---
+2015/09/11 16:00:52 [error] [php] Undefined index: Category (/home/spoplar/www/yii/blog/protected/modules/boss/controllers/CategoryController.php:39)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /home/spoplar/www/yii/framework/web/CController.php(286): CategoryController->runAction()
+#3 /home/spoplar/www/yii/framework/web/CController.php(265): CategoryController->runActionWithFilters()
+#4 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CategoryController->run()
+#5 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/category/edit&cid=26
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/CategoryController.php (39)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 16:10:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "boss/article/index".' in /home/spoplar/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/article/in...')
+#1 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=boss/article/index
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/
+---
+2015/09/11 16:10:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "boss/article/add".' in /home/spoplar/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/article/ad...')
+#1 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=boss/article/add
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/
+---
+2015/09/11 16:10:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "boss/article/index".' in /home/spoplar/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/article/in...')
+#1 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=boss/article/index
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/
+---
+2015/09/11 16:10:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "boss/article/add".' in /home/spoplar/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/article/ad...')
+#1 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=boss/article/add
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/
+---
+2015/09/11 16:10:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "boss/article/index".' in /home/spoplar/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/article/in...')
+#1 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=boss/article/index
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/
+---
+2015/09/11 16:10:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "boss/article/add".' in /home/spoplar/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/article/ad...')
+#1 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=boss/article/add
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/
+---
+2015/09/11 16:10:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "boss/article/index".' in /home/spoplar/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/article/in...')
+#1 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=boss/article/index
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/
+---
+2015/09/11 16:10:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "boss/article/add".' in /home/spoplar/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/article/ad...')
+#1 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=boss/article/add
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/
+---
+2015/09/11 16:27:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/spoplar/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(270): CController->missingAction('index')
+#1 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#2 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('boss/article/in...')
+#3 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /home/spoplar/www/yii/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=boss/article/index
+HTTP_REFERER=http://www.yii.com/index.php?r=boss/
+---
+2015/09/11 16:28:28 [error] [php] Undefined variable: articleInfo (/home/spoplar/www/yii/blog/protected/modules/boss/views/article/index.php:22)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): ArticleController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): ArticleController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php(12): ArticleController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): ArticleController->actionIndex()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): ArticleController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): ArticleController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/article/index
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/article/index.php (22)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php (12)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 16:28:29 [error] [php] Undefined variable: articleModel (/home/spoplar/www/yii/blog/protected/modules/boss/views/article/add.php:29)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): ArticleController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): ArticleController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php(16): ArticleController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): ArticleController->actionAdd()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): ArticleController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): ArticleController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/article/add
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/article/add.php (29)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php (16)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 16:29:42 [error] [php] Undefined variable: articleModel (/home/spoplar/www/yii/blog/protected/modules/boss/views/article/add.php:29)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): ArticleController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): ArticleController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php(17): ArticleController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): ArticleController->actionAdd()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): ArticleController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): ArticleController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/article/add
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/article/add.php (29)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php (17)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 16:29:42 [error] [php] Undefined variable: articleInfo (/home/spoplar/www/yii/blog/protected/modules/boss/views/article/index.php:22)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): ArticleController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): ArticleController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php(13): ArticleController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): ArticleController->actionIndex()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): ArticleController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): ArticleController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/article/index
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/article/index.php (22)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php (13)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 16:29:43 [error] [php] Undefined variable: articleInfo (/home/spoplar/www/yii/blog/protected/modules/boss/views/article/index.php:22)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): ArticleController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): ArticleController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php(13): ArticleController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): ArticleController->actionIndex()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): ArticleController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): ArticleController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/article/index
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/article/index.php (22)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php (13)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 16:29:45 [error] [php] Undefined variable: articleModel (/home/spoplar/www/yii/blog/protected/modules/boss/views/article/add.php:29)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): ArticleController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): ArticleController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php(17): ArticleController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): ArticleController->actionAdd()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): ArticleController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): ArticleController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/article/add
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/article/add.php (29)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php (17)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 16:30:19 [error] [php] Undefined variable: articleModel (/home/spoplar/www/yii/blog/protected/modules/boss/views/article/add.php:29)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): ArticleController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): ArticleController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php(18): ArticleController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): ArticleController->actionAdd()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): ArticleController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): ArticleController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/article/add
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/article/add.php (29)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php (18)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 16:30:20 [error] [php] Undefined variable: articleModel (/home/spoplar/www/yii/blog/protected/modules/boss/views/article/add.php:29)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): ArticleController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): ArticleController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php(18): ArticleController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): ArticleController->actionAdd()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): ArticleController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): ArticleController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/article/add
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/article/add.php (29)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php (18)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 16:30:20 [error] [php] Undefined variable: articleModel (/home/spoplar/www/yii/blog/protected/modules/boss/views/article/add.php:29)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): ArticleController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): ArticleController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php(18): ArticleController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): ArticleController->actionAdd()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): ArticleController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): ArticleController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/article/add
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/article/add.php (29)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php (18)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 16:30:20 [error] [php] Undefined variable: articleModel (/home/spoplar/www/yii/blog/protected/modules/boss/views/article/add.php:29)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): ArticleController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): ArticleController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php(18): ArticleController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): ArticleController->actionAdd()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): ArticleController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): ArticleController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/article/add
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/article/add.php (29)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php (18)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 16:30:46 [error] [php] Undefined variable: articleModel (/home/spoplar/www/yii/blog/protected/modules/boss/views/article/add.php:29)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): ArticleController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): ArticleController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php(18): ArticleController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): ArticleController->actionAdd()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): ArticleController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): ArticleController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/article/add
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/article/add.php (29)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php (18)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 16:31:10 [error] [php] Undefined variable: articleModel (/home/spoplar/www/yii/blog/protected/modules/boss/views/article/add.php:29)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): ArticleController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): ArticleController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php(18): ArticleController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): ArticleController->actionAdd()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): ArticleController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): ArticleController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/article/add
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/article/add.php (29)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php (18)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 16:31:11 [error] [php] Undefined variable: articleModel (/home/spoplar/www/yii/blog/protected/modules/boss/views/article/add.php:29)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): ArticleController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): ArticleController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php(18): ArticleController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): ArticleController->actionAdd()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): ArticleController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): ArticleController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/article/add
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/article/add.php (29)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php (18)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 16:31:11 [error] [php] Undefined variable: articleModel (/home/spoplar/www/yii/blog/protected/modules/boss/views/article/add.php:29)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): ArticleController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): ArticleController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php(18): ArticleController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): ArticleController->actionAdd()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): ArticleController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): ArticleController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/article/add
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/article/add.php (29)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php (18)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 16:32:14 [error] [php] Undefined variable: articleInfo (/home/spoplar/www/yii/blog/protected/modules/boss/views/article/index.php:22)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): ArticleController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): ArticleController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php(13): ArticleController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): ArticleController->actionIndex()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): ArticleController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): ArticleController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/article/index
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/article/index.php (22)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php (13)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 16:32:16 [error] [php] Undefined variable: articleModel (/home/spoplar/www/yii/blog/protected/modules/boss/views/article/add.php:29)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): ArticleController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): ArticleController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php(18): ArticleController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): ArticleController->actionAdd()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): ArticleController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): ArticleController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/article/add
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/article/add.php (29)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php (18)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 16:32:17 [error] [php] Undefined variable: articleInfo (/home/spoplar/www/yii/blog/protected/modules/boss/views/article/index.php:22)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): ArticleController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): ArticleController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php(13): ArticleController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): ArticleController->actionIndex()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): ArticleController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): ArticleController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/article/index
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/article/index.php (22)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php (13)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 16:43:09 [error] [php] Undefined variable: articleInfo (/home/spoplar/www/yii/blog/protected/modules/boss/views/article/index.php:22)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): ArticleController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): ArticleController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php(13): ArticleController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): ArticleController->actionIndex()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): ArticleController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): ArticleController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/article/index
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/article/index.php (22)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php (13)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 16:43:10 [error] [php] Undefined variable: cateArr (/home/spoplar/www/yii/blog/protected/modules/boss/views/article/add.php:52)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): ArticleController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): ArticleController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php(18): ArticleController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): ArticleController->actionAdd()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): ArticleController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): ArticleController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/article/add
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/article/add.php (52)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php (18)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 16:55:03 [error] [php] Undefined variable: articleInfo (/home/spoplar/www/yii/blog/protected/modules/boss/views/article/index.php:22)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): ArticleController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): ArticleController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php(13): ArticleController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): ArticleController->actionIndex()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): ArticleController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): ArticleController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/article/index
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/article/index.php (22)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php (13)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 16:55:04 [error] [php] Undefined variable: articleInfo (/home/spoplar/www/yii/blog/protected/modules/boss/views/article/index.php:22)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): ArticleController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): ArticleController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php(13): ArticleController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): ArticleController->actionIndex()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): ArticleController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): ArticleController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/article/index
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/article/index.php (22)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php (13)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 16:55:05 [error] [php] Trying to get property of non-object (/home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php:23)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(286): ArticleController->runAction()
+#1 /home/spoplar/www/yii/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#2 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): ArticleController->run()
+#3 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/article/add
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php (23)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 16:55:06 [error] [php] Trying to get property of non-object (/home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php:23)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(286): ArticleController->runAction()
+#1 /home/spoplar/www/yii/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#2 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): ArticleController->run()
+#3 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/article/add
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php (23)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 16:55:06 [error] [php] Trying to get property of non-object (/home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php:23)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(286): ArticleController->runAction()
+#1 /home/spoplar/www/yii/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#2 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): ArticleController->run()
+#3 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/article/add
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php (23)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 16:55:07 [error] [php] Trying to get property of non-object (/home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php:23)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(286): ArticleController->runAction()
+#1 /home/spoplar/www/yii/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#2 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): ArticleController->run()
+#3 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/article/add
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php (23)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 16:55:44 [error] [php] Undefined variable: articleInfo (/home/spoplar/www/yii/blog/protected/modules/boss/views/article/index.php:22)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): ArticleController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): ArticleController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php(13): ArticleController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): ArticleController->actionIndex()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): ArticleController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): ArticleController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/article/index
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/article/index.php (22)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php (13)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 17:01:32 [error] [php] Undefined variable: articleInfo (/home/spoplar/www/yii/blog/protected/modules/boss/views/article/index.php:22)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): ArticleController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): ArticleController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php(13): ArticleController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): ArticleController->actionIndex()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): ArticleController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): ArticleController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/article/index
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/article/index.php (22)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php (13)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 18:27:54 [error] [php] Undefined variable: articleInfo (/home/spoplar/www/yii/blog/protected/modules/boss/views/article/index.php:22)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): ArticleController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): ArticleController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php(13): ArticleController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): ArticleController->actionIndex()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): ArticleController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): ArticleController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/article/index
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/article/index.php (22)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php (13)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 18:49:46 [warning] [application] Failed to set unsafe attribute "type" of "Article".
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php (19)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 18:49:46 [warning] [application] Failed to set unsafe attribute "cid" of "Article".
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php (19)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 18:49:46 [warning] [application] Failed to set unsafe attribute "thumb" of "Article".
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php (19)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 18:49:46 [warning] [application] Failed to set unsafe attribute "info" of "Article".
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php (19)
+in /home/spoplar/www/yii/blog/index.php (13)
+2015/09/11 18:49:47 [error] [php] Undefined variable: articleInfo (/home/spoplar/www/yii/blog/protected/modules/boss/views/article/index.php:22)
+Stack trace:
+#0 /home/spoplar/www/yii/framework/web/CController.php(869): ArticleController->renderFile()
+#1 /home/spoplar/www/yii/framework/web/CController.php(782): ArticleController->renderPartial()
+#2 /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php(13): ArticleController->render()
+#3 /home/spoplar/www/yii/framework/web/actions/CInlineAction.php(49): ArticleController->actionIndex()
+#4 /home/spoplar/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/spoplar/www/yii/framework/web/CController.php(286): ArticleController->runAction()
+#6 /home/spoplar/www/yii/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#7 /home/spoplar/www/yii/framework/web/CWebApplication.php(282): ArticleController->run()
+#8 /home/spoplar/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/spoplar/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /home/spoplar/www/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=boss/article/index
+in /home/spoplar/www/yii/blog/protected/modules/boss/views/article/index.php (22)
+in /home/spoplar/www/yii/blog/protected/modules/boss/controllers/ArticleController.php (13)
+in /home/spoplar/www/yii/blog/index.php (13)
